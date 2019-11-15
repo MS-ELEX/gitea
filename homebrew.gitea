@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+        <dict>
+                <key>Label</key>
+                <string>homebrew.gitea</string>
+                <key>UserName</key>
+                <string>ユーザー名</string>
+                <key>GroupName</key>
+                <string>admin</string>
+                <key>ProgramArguments</key>
+                <array>
+                        <string>/usr/local/bin/gitea</string>
+                        <string>web</string>
+                        <string>--config</string>
+                        <string>/usr/local/bin/custom/conf/app.ini</string>
+                </array>
+                <key>RunAtLoad</key>
+                <true/>
+                <key>KeepAlive</key>
+                <true/>
+        </dict>
+</plist>
