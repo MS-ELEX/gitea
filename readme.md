@@ -8,3 +8,5 @@ brew install gitea
 
 sudo launchctl load /Library/LaunchDaemons/homebrew.gitea.plist 
 ```
+####My Server
+[https://gitea.hm.ms-elex.jp/]
